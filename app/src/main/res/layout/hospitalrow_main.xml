@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="75dp">
+
+    <TextView
+        android:id="@+id/text_depday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:textColor="#9CF"
+        android:textSize="16dp"
+        android:textStyle="bold"/>
+
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/text_noon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_depday"
+            android:layout_alignLeft="@+id/text_depday"
+            android:textColor="#FFF"
+            android:textSize="14dp"/>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/text_area"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_noon"
+            android:layout_alignLeft="@+id/text_noon"
+            android:textColor="#FFF"
+            android:textSize="14dp"/>
+
+        <TextView
+            android:id="@+id/text_DepCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_below="@+id/text_area"
+            android:layout_alignLeft="@+id/text_area"
+            android:textColor="#FFF"
+            android:textSize="14dp"/>
+
+        <TextView
+            android:id="@+id/text_depname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_below="@+id/text_DepCode"
+            android:layout_alignLeft="@+id/text_DepCode"
+            android:textColor="#FFF"
+            android:textSize="14dp"/>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+        android:id="@+id/text_room"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_depname"
+        android:layout_alignLeft="@+id/text_depname"
+        android:textColor="#FFF"
+        android:textSize="14dp"/>
+
+        <TextView
+            android:id="@+id/text_DocCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_below="@+id/text_room"
+            android:layout_alignLeft="@+id/text_room"
+            android:textColor="#FFF"
+            android:textSize="14dp"/>
+
+
+
+        <TextView
+            android:id="@+id/text_docname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_below="@+id/text_DocCode"
+            android:layout_alignLeft="@+id/text_DocCode"
+            android:textColor="#FFF"
+            android:textSize="14dp"/>
+
+    </TableRow>
+
+
+</TableLayout>

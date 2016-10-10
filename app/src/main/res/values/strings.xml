@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">聯合醫院門診資訊</string>
+    <string name="HospitalTextTitle">新北市立聯合醫院門診表 (板橋院區、三重院區)</string>
+    <string name="SanchongTextTitle">新北市立聯合醫院_門診進度查詢 (三重院區)</string>
+    <string name="BanqiaoTextTitle">新北市立聯合醫院_門診進度查詢 (板橋院區)</string>
+
+</resources>
